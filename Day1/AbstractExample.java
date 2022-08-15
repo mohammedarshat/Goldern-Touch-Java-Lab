@@ -10,7 +10,7 @@ public class AbstractExample {
 	
 	public static void main(String[] args) {
 		
-		Attack attack = new Army(); //int cannot override but if u create only for army it will take itself value
+		 Attack attack = new Army(); //int cannot override but if u create only for army it will take itself value
 		System.out.println(attack.amt);
 	}
 }
