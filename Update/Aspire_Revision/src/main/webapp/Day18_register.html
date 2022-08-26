@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.container{
+	margin-top : 200px;
+}
+.buttonLogoutColor{
+
+	background-color : #b3c3ff;
+	color : black;
+	padding : 10px 20px;
+	border-radius : 8px;
+	border-color : #b3c3ff;
+
+}
+.buttonLoginColor{
+
+	background-color : #b3c3ff;
+	color : black;
+	padding : 10px 20px;
+	border-radius : 8px;
+	border-color : #b3c3ff;
+}
+.buttonLoginPlace{
+	
+	position : absolute;
+	top : 8px;
+	right : 16px;
+}
+</style>
+</head>
+<body style = "background-color : powderblue;">
+	
+	<div class = "container" style = "text-align : center">
+		<form action="ServletPage" method="POST">
+
+			<input type="hidden" name="formId" value="register"> 
+		
+			UserName : <input type="text" name="uname"><br><br> 
+			Password : <input type="password" name="upass"><br><br>
+			City : <input type="text" name="ucity"> <br><br>
+		
+			<button class = "buttonLogoutColor">Register</button>
+
+		</form>
+	</div>
+	<div class = "buttonLoginPlace">
+			
+		<form action = "Day18_Login.html" method = "POST">
+	
+			<button class = "buttonLoginColor"> Log in </button>
+	
+		</form>
+	
+	</div>
+</body>
+</html>
